@@ -1,0 +1,155 @@
+{
+  "$schema": "vscode://schemas/settings/user",
+
+  // Language Specific Settings
+  //  JavaScript And TypeScript
+  "js/ts.experimental.useTsgo": true,
+  "js/ts.tsdk.path": "./node_modules/typescript",
+
+  // Editor Settings
+  "editor.fontFamily": "JetBrainsMono Nerd Font, Cascadia Code, monospace",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "off",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.indentSize": 2,
+
+  // Terminal Settings
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, Cascadia Code, monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.initialHint": false,
+
+  // Workbench Settings
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.activityBar.autoHide": true,
+  "workbench.activityBar.location": "top",
+
+  // Git Settings
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+
+  // Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.format.oxc": "always", // Run formatter first.
+    "source.fixAll.oxc": "always", // Run lint fixes after.
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+
+  // Other Settings
+  "explorer.confirmDelete": false,
+  "output.smartScroll.enabled": false,
+  "window.customTitleBarVisibility": "windowed",
+  "window.commandCenter": false,
+  "window.controlsStyle": "hidden",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+  "explorer.confirmDragAndDrop": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "explorer.confirmPasteNative": false,
+  "python.analysis.typeCheckingMode": "strict",
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+
+  // Allowed JSON Schemas Domains
+  "json.schemaDownload.trustedDomains": {
+    "https://biomejs.dev": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://frontmatter.codes": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true,
+  },
+
+  // Extensions
+  "extensions.autoCheckUpdates": true,
+  "extensions.autoUpdate": "on",
+  "extensions.allowed": {
+    // Icon Packs And Themes
+    "Catppuccin.catppuccin-vsc": "stable",
+    "Catppuccin.catppuccin-vsc-icons": "stable",
+
+    // Keybindings
+    "vscodevim.vim": "stable",
+
+    // Formatters And Linters
+    "oxc.oxc-vscode": "stable",
+    "esbenp.prettier-vscode": "stable",
+
+    // Languages
+    //  Astro
+    "astro-build.astro-vscode": "stable",
+    //  Rust
+    "tamasfe.even-better-toml": "stable",
+    "dustypomerleau.rust-syntax": "stable",
+    "rust-lang.rust-analyzer": "stable",
+    //  Docker
+    "docker.docker": "stable",
+    "ms-azuretools.vscode-containers": "stable",
+    "ms-vscode-remote.remote-containers": "stable",
+    //  Vite
+    "vitest.explorer": "stable",
+    //  Vue
+    "Vue.volar": "stable",
+    //  Python
+    "ms-python.vscode-pylance": "stable",
+    "ms-python.python": "stable",
+    "ms-python.debugpy": "stable",
+    "ms-python.vscode-python-envs": "stable",
+    //  JavaScript And TypeScript
+    "christian-kohler.npm-intellisense": "stable",
+    "TypeScriptTeam.native-preview": "stable",
+    "yoavbls.pretty-ts-errors": "stable",
+    "GregorBiswanger.json2ts": "stable",
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+  },
+}
