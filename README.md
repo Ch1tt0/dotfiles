@@ -1,2 +1,1 @@
-# dotfiles
-My humble dotfiles!
+# Chittos' dotfiles
