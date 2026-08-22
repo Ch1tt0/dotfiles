@@ -1,11 +1,6 @@
 {
   "$schema": "vscode://schemas/settings/user",
 
-  // Language Specific Settings
-  //  JavaScript And TypeScript
-  "js/ts.experimental.useTsgo": true,
-  "js/ts.tsdk.path": "./node_modules/typescript",
-
   // Editor Settings
   "editor.fontFamily": "JetBrainsMono Nerd Font, Cascadia Code, monospace",
   "editor.fontSize": 16,
@@ -145,7 +140,6 @@
     "ms-python.vscode-python-envs": "stable",
     //  JavaScript And TypeScript
     "christian-kohler.npm-intellisense": "stable",
-    "TypeScriptTeam.native-preview": "stable",
     "yoavbls.pretty-ts-errors": "stable",
     "GregorBiswanger.json2ts": "stable",
   },
