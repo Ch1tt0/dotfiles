@@ -24,6 +24,7 @@
   "terminal.integrated.enableImages": true,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.initialHint": false,
+  "terminal.integrated.stickyScroll.enabled": false,
 
   // Workbench Settings
   "workbench.colorTheme": "Catppuccin Frappé",
@@ -70,6 +71,12 @@
   },
   "[vue]": {
     "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
 
   // Other Settings
